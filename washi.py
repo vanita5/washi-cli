@@ -110,7 +110,7 @@ class Washi():
 		return response
 	
 
-	def usage():
+	def usage(self):
 		print 'Python client for http://waschi.org \n' \
 		'Usage:\n' \
 		'   -w object or --wash object      Wash some object\n' \
@@ -126,12 +126,12 @@ def main(argv):
 	try:
 		opts, args = getopt.getopt(argv, 'hw:f', ['help', 'wash', 'find',  'serverlist', 'object'])
 	except getopt.GetOptError:
-		usage()
+		w.usage()
 		sys.exit(2)
 		
 	for opt, arg in opts:
 		if opt in ('-h', '--help'):
-			usage()
+			w.usage()
 			sys.exit()
 			
 		elif opt in ('-w', '--wash'):
