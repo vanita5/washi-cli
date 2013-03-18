@@ -60,7 +60,7 @@ class Washi():
 	def find(self, object):
 		objectstr = ''
 		if object == []:
-			print 'You need a object to wasch! Use -f object or --find object'
+			print 'You need a object to wash! Use -f object or --find object'
 			exit()
 			
 		for i in range(1, len(object)):
@@ -83,7 +83,7 @@ class Washi():
 	def wash(self, object):
 		objectstr = ''
 		if object == []:
-			print 'You need a object to wasch! Use -f object or --find object'
+			print 'You need a object to wash! Use -f object or --find object'
 			exit()
 			
 		for i in range(1, len(object)):
@@ -142,6 +142,10 @@ def main(argv):
 		
 		elif opt == '--serverlist':
 			w.printServerList()
+			
+		else:
+			w.usage()
+			sys.exit()
 		
 if __name__ == "__main__":
 	main(sys.argv[1:])
