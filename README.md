@@ -32,7 +32,7 @@ http://vanita5.tk/hiaal/
                      &quot;HEY I'M A LICENSE&quot;-LICENSE
    	                  Version 1, June 2013
 
-            Copyright (C) 2013 Eliah Winkler &lt;mail@vanita5.tk&gt;
+            Copyright (C) 2013 vanita5 &lt;mail@vanita5.de&gt;
 
  Everyone is permitted to copy and distribute verbatim or modified
  copies of this license document, and changing it is allowed as long
