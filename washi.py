@@ -6,7 +6,7 @@
 #
 #
 # author:	vanita5
-# contact:	mail@vanita5.tk
+# contact:	mail@vanita5.de
 # twitter:	@_vanita5
 #
 #
